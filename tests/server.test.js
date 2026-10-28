@@ -1,6 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { listCandidates, getCandidate, demoEvaluation, normalizeVerdict, analyzeCandidateDirect } = require("../server");
+const candidatesHandler = require("../api/candidates");
 
 test("discovers candidate folders and ignores templates", () => {
   const candidates = listCandidates();
@@ -42,4 +43,17 @@ test("serverless analysis returns a complete result without filesystem state", a
   assert.equal(result.provider, "demo");
   assert.ok(result.evaluations.summary.decision);
   assert.ok(result.evaluations.code);
+});
+
+test("serverless candidate endpoint reads the id from the request URL", () => {
+  let statusCode;
+  let body;
+  const response = {
+    status(code) { statusCode = code; return this; },
+    json(value) { body = value; return this; },
+  };
+  candidatesHandler({ method: "GET", url: "/api/candidates?id=sofia_martinez" }, response);
+  assert.equal(statusCode, 200);
+  assert.equal(body.id, "sofia_martinez");
+  assert.equal(body.name, "Sofía Martínez");
 });

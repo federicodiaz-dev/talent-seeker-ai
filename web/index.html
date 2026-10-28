@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1018">
+  <title>Talent Seeker</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Talent Seeker">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span>Talent Seeker</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-item active" data-view="candidates">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Dashboard
+        </button>
+        <button class="nav-item" data-view="workflow">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/><path d="M10 6.5h4a3 3 0 0 1 3 3V14M6.5 10v4a3 3 0 0 0 3 3H14"/></svg>
+          Workflow
+        </button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="engine-card" id="engineCard">
+          <span class="engine-dot"></span>
+          <div><strong>Groq AI</strong><small>Comprobando...</small></div>
+        </div>
+        <button class="nav-item" id="settingsButton">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.83 2.83-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 .6 1.7 1.7 0 0 0-.4 1.1V21h-4v-.1A1.7 1.7 0 0 0 8.6 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06-2.83-2.83.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-.6-1 1.7 1.7 0 0 0-1.1-.4H3v-4h.1A1.7 1.7 0 0 0 4.6 8.6a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.83-2.83.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-.6 1.7 1.7 0 0 0 .4-1.1V3h4v.1A1.7 1.7 0 0 0 15.4 4.6a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.83 2.83-.06.06A1.7 1.7 0 0 0 19.4 9c.1.4.32.75.6 1 .3.26.68.4 1.1.4h.1v4h-.1c-.42 0-.8.14-1.1.4-.28.25-.5.6-.6 1Z"/></svg>
+          Configuración
+        </button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="icon-button mobile-menu" id="menuButton" aria-label="Abrir menú">☰</button>
+        <div>
+          <p class="eyebrow">Recruiting intelligence</p>
+          <h1 id="pageTitle">Talent dashboard</h1>
+        </div>
+        <div class="top-actions">
+          <label class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+            <input id="searchInput" type="search" placeholder="Buscar candidato...">
+          </label>
+          <button class="notification-button" aria-label="Notificaciones"><span></span>⌁</button>
+          <div class="avatar">TS</div>
+        </div>
+      </header>
+
+      <section class="overview" id="overview">
+        <div class="overview-copy">
+          <span class="section-kicker"><span></span> Miércoles, 28 de octubre</span>
+          <h2>Decisiones de talento,<br><em>más inteligentes.</em></h2>
+          <p>Todo tu pipeline en una sola vista. Revisá entrevistas, compará perfiles y convertí horas de lectura en decisiones claras.</p>
+          <div class="hero-actions"><button class="primary-button" id="reviewNext">Revisar próximo perfil <span>→</span></button><button class="ghost-button" id="scrollCandidates">Ver candidatos</button></div>
+        </div>
+        <div class="metrics" id="metrics"></div>
+      </section>
+
+      <section class="intelligence-grid" id="intelligenceGrid">
+        <article class="analytics-card pipeline-card">
+          <div class="panel-heading"><div><span class="panel-eyebrow">Pipeline</span><h3>Estado de búsquedas</h3></div><span class="trend positive">↑ 18% este mes</span></div>
+          <div class="pipeline-chart" id="pipelineChart"></div>
+        </article>
+        <article class="analytics-card spotlight-card">
+          <div class="panel-heading"><div><span class="panel-eyebrow">AI Spotlight</span><h3>Perfil destacado</h3></div><span class="sparkle">✦</span></div>
+          <div id="spotlightCandidate"></div>
+        </article>
+        <article class="analytics-card activity-card">
+          <div class="panel-heading"><div><span class="panel-eyebrow">Actividad</span><h3>Últimos movimientos</h3></div><button class="text-button">Ver todo</button></div>
+          <div class="activity-list" id="activityList"></div>
+        </article>
+      </section>
+
+      <section class="candidate-section" id="candidateSection">
+        <div class="section-heading">
+          <div><span class="panel-eyebrow">Talent pool</span><h3>Todos los candidatos</h3><p id="candidateCount">Cargando...</p></div>
+          <div class="filters">
+            <button class="filter active" data-filter="all">Todos</button>
+            <button class="filter" data-filter="ready">Listos</button>
+            <button class="filter" data-filter="analyzed">Analizados</button>
+          </div>
+        </div>
+        <div class="candidate-grid" id="candidateGrid"></div>
+      </section>
+
+      <section class="workflow-page hidden" id="workflowPage">
+        <div class="empty-workflow" id="emptyWorkflow">
+          <div class="empty-orbit"><span></span></div>
+          <h2>El workflow vive acá</h2>
+          <p>Elegí un candidato y ejecutá su análisis para ver cada etapa en tiempo real.</p>
+          <button class="primary-button" data-back>Candidatos</button>
+        </div>
+        <div class="workflow-content hidden" id="workflowContent"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="candidate-drawer" id="candidateDrawer" aria-hidden="true">
+    <button class="drawer-close" id="drawerClose" aria-label="Cerrar">×</button>
+    <div id="drawerContent"></div>
+  </aside>
+
+  <dialog class="settings-modal" id="settingsModal">
+    <form method="dialog">
+      <div class="modal-heading"><div><p class="eyebrow">Motor de análisis</p><h2>Configuración</h2></div><button class="drawer-close" value="cancel">×</button></div>
+      <label class="setting-option">
+        <input type="radio" name="provider" value="groq" checked>
+        <span><strong>Groq Cloud</strong><small id="groqOptionStatus">Comprobando configuración...</small></span>
+      </label>
+      <div class="token-settings">
+        <label for="groqTokenInput">Tu API key de Groq</label>
+        <div class="token-input-wrap">
+          <input id="groqTokenInput" type="password" autocomplete="off" placeholder="gsk_...">
+          <button type="button" id="toggleToken" aria-label="Mostrar u ocultar token">Ver</button>
+        </div>
+        <small>Se guarda solamente en este navegador. Reemplazala acá cuando alcance su límite.</small>
+        <button type="button" class="clear-token" id="clearToken">Eliminar token guardado</button>
+      </div>
+      <label class="setting-option">
+        <input type="radio" name="provider" value="demo">
+        <span><strong>Modo demo</strong><small>Análisis local de prueba, sin consumir créditos.</small></span>
+      </label>
+      <div class="groq-config-box">
+        <div><span>Modelo activo</span><strong id="groqModel">—</strong></div>
+        <code>Token del navegador → token privado del deploy</code>
+      </div>
+      <div class="modal-note"><span>✦</span><p>La key viaja por HTTPS únicamente durante el análisis y no se guarda en el servidor. Si no ingresás una, se usa el token privado del deploy mientras tenga créditos.</p></div>
+      <button class="primary-button full" id="saveSettings" value="default">Guardar configuración</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

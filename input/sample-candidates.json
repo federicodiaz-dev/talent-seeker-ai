@@ -1,0 +1,146 @@
+[
+  {
+    "id": "sofia_martinez",
+    "name": "Sofía Martínez",
+    "role": "Senior AI Engineer",
+    "location": "Buenos Aires, AR",
+    "experience": "7 años",
+    "stage": "Entrevista final",
+    "source": "Referido",
+    "appliedAt": "2026-10-21",
+    "tags": ["Python", "LangGraph", "AWS"],
+    "interviews": {
+      "theory": "# Technical interview\n\n## RAG and agents\n**Question:** How would you design a production RAG system?\n**Answer:** I would separate ingestion, retrieval and generation. Documents are chunked with semantic boundaries, embedded and stored with metadata. At query time I combine hybrid retrieval, reranking and access filters. I measure recall at K, groundedness and answer relevance, and I keep citations for observability.\n\n**Question:** How do you make an agent reliable?\n**Answer:** I use typed state, constrained tools, idempotent operations, explicit stop conditions and checkpoints. Every tool call is traced and evaluated offline before release.\n\n**Question:** How would you scale it?\n**Answer:** Stateless workers consume durable queues, model calls have retry budgets and fallbacks, and frequently reused context is cached. I monitor latency, cost, tool failures and quality drift.",
+      "code": "# Challenge\n\nImplemented a typed Python workflow with separate retrieval, ranking and response nodes. Inputs are validated with Pydantic, external calls use bounded retries, and each node returns immutable state updates. Unit tests cover empty retrieval, provider timeout and malformed tool output. The solution includes structured logging and a small evaluation dataset.",
+      "experience": "# Work experience\n\nFor the last three years I led a six-person AI platform team. We built a customer support assistant processing 80,000 conversations per month. I designed the LangGraph orchestration, introduced automated evaluations and reduced unsupported answers from 11% to 3.2%. I also migrated batch inference to AWS, reducing monthly cost by 28%. My role included architecture, implementation, mentoring and production incident ownership."
+    }
+  },
+  {
+    "id": "mateo_rojas",
+    "name": "Mateo Rojas",
+    "role": "Backend Engineer",
+    "location": "Córdoba, AR",
+    "experience": "4 años",
+    "stage": "Evaluación técnica",
+    "source": "LinkedIn",
+    "appliedAt": "2026-10-24",
+    "tags": ["Node.js", "PostgreSQL", "Docker"],
+    "interviews": {
+      "theory": "# Theory interview\n\n**Question:** How do you structure a REST API?\n**Answer:** I separate controllers, domain services and repositories. Validation happens at the boundary and business rules stay independent from HTTP. I use transactions for operations that modify related records and add idempotency keys to sensitive endpoints.\n\n**Question:** How do you investigate a slow query?\n**Answer:** First I inspect the execution plan and production metrics. Then I verify indexes, cardinality estimates, excessive joins and data access patterns. I avoid adding indexes without measuring write cost.",
+      "code": "# Coding challenge\n\nThe candidate created a Node.js CSV processor using streams instead of loading the whole file in memory. Dates are validated, invalid rows are reported, and aggregation is done with a Map. Tests cover empty files, invalid dates and duplicate records. Complexity is documented as O(n).",
+      "experience": "# Experience\n\nI developed APIs for a logistics platform using Node.js, TypeScript and PostgreSQL. I owned shipment tracking and billing integrations. By replacing synchronous calls with a queue, our team reduced request timeouts by 70%. I participated in on-call rotations and reviewed pull requests, but I have not managed people."
+    }
+  },
+  {
+    "id": "valentina_silva",
+    "name": "Valentina Silva",
+    "role": "Data Scientist",
+    "location": "Mendoza, AR",
+    "experience": "5 años",
+    "stage": "Screening",
+    "source": "Careers page",
+    "appliedAt": "2026-10-26",
+    "tags": ["Python", "MLflow", "Databricks"],
+    "interviews": {
+      "theory": "# ML interview\n\n**Question:** How do you deploy and monitor a model?\n**Answer:** I register versioned models, validate them against a holdout set and deploy gradually. In production I monitor feature distribution, prediction drift, latency and business outcomes. Retraining is triggered only after confirming that drift affects performance.\n\n**Question:** What is data leakage?\n**Answer:** It happens when training uses information that would not be available at prediction time. I prevent it with time-aware splits and by fitting transformations only on training data.",
+      "code": "# Challenge\n\nA pandas solution loads customer events, validates schemas and builds time-window features. The notebook is clear and reproducible, but data access, training and evaluation remain in one file. There are tests for the feature functions but no integration test for the complete pipeline.",
+      "experience": "# Experience\n\nI built churn and demand forecasting models for retail. The churn model improved retention campaign precision by 18%. I used Databricks, MLflow and Airflow, collaborated with product managers and explained model limitations to commercial teams. I am comfortable owning experimentation, although infrastructure changes were handled by the platform team."
+    }
+  },
+  {
+    "id": "lucas_fernandez",
+    "name": "Lucas Fernández",
+    "role": "Junior AI Engineer",
+    "location": "Rosario, AR",
+    "experience": "1 año",
+    "stage": "Evaluación técnica",
+    "source": "Bootcamp",
+    "appliedAt": "2026-10-25",
+    "tags": ["Python", "FastAPI", "RAG"],
+    "interviews": {
+      "theory": "# Interview\n\n**Question:** What is RAG?\n**Answer:** RAG means retrieval augmented generation. It searches documents and sends them to the model so the answer has more context.\n\n**Question:** What is a vector database?\n**Answer:** It stores embeddings and finds similar text. I used Chroma in a personal project.\n\n**Question:** How do you evaluate it?\n**Answer:** I would check if the answer looks correct and ask users for feedback.",
+      "code": "# Challenge\n\nThe solution reads the complete CSV with pandas, extracts the year and groups records correctly. It handles the happy path but has no input validation or tests. The agent exercise uses three simple functions for flights, hotels and activities and selects the lowest numeric price.",
+      "experience": "# Experience\n\nI completed a six-month AI bootcamp and then joined a small agency as a junior developer. I built a FAQ chatbot with FastAPI, Chroma and an open model. I fixed bugs and added logging with help from a senior developer. I want to learn testing, cloud deployment and model evaluation."
+    }
+  },
+  {
+    "id": "camila_torres",
+    "name": "Camila Torres",
+    "role": "Full-stack Engineer",
+    "location": "Buenos Aires, AR",
+    "experience": "6 años",
+    "stage": "Entrevista final",
+    "source": "Referido",
+    "appliedAt": "2026-10-18",
+    "tags": ["React", ".NET", "Azure"],
+    "interviews": {
+      "theory": "# Architecture interview\n\n**Question:** How would you evolve a monolith?\n**Answer:** I would first identify ownership and coupling using runtime traces and change history. I prefer extracting a module before a service. A service boundary is justified when it needs independent scaling, release cadence or ownership. I would use the strangler pattern and keep contracts observable.\n\n**Question:** How do you protect an API?\n**Answer:** Authentication with OIDC, authorization by policy, short-lived tokens, rate limits, input validation and audit logs. Secrets belong in managed storage, not source code.",
+      "code": "# Challenge\n\nThe implementation is modular and strongly typed. It includes cancellation support, validation, meaningful errors and tests at unit and API level. The UI is accessible and handles loading, empty and failure states. The candidate documented trade-offs instead of overengineering the solution.",
+      "experience": "# Experience\n\nI own features end to end for a B2B payments product. I work with React, .NET and Azure, from discovery through dashboards and production support. I led the redesign of onboarding, increasing completion from 61% to 79%, and coordinated the migration of a legacy API without downtime. I mentor two engineers and facilitate technical planning."
+    }
+  },
+  {
+    "id": "nicolas_vega",
+    "name": "Nicolás Vega",
+    "role": "ML Engineer",
+    "location": "Montevideo, UY",
+    "experience": "3 años",
+    "stage": "Screening",
+    "source": "Community",
+    "appliedAt": "2026-10-27",
+    "tags": ["PyTorch", "Kubernetes", "GCP"],
+    "interviews": {
+      "theory": "# Technical interview\n\n**Question:** What is the difference between training and serving infrastructure?\n**Answer:** Training optimizes throughput for large jobs and may use spot accelerators, while serving optimizes predictable latency and availability. Artifacts and feature definitions must stay versioned across both.\n\n**Question:** What would you monitor?\n**Answer:** Infrastructure saturation, request latency, errors, model confidence, feature drift and product metrics. Alerts need owners and runbooks.",
+      "code": "# Challenge\n\nA Python service batches inference requests and exposes health and readiness endpoints. The implementation is readable and has load tests. It does not cap the internal queue, so sustained overload could increase memory usage. Error messages and metrics are well designed.",
+      "experience": "# Experience\n\nI deployed computer vision models for warehouse quality control. I packaged models with Docker, configured GPU workloads in Kubernetes and built monitoring in Grafana. The system evaluates about two million images per month. I contributed most infrastructure code but model research was led by data scientists."
+    }
+  },
+  {
+    "id": "julieta_castro",
+    "name": "Julieta Castro",
+    "role": "Platform Engineer",
+    "location": "Remote",
+    "experience": "8 años",
+    "stage": "Documentación pendiente",
+    "source": "LinkedIn",
+    "appliedAt": "2026-10-22",
+    "tags": ["Kubernetes", "Terraform", "AWS"],
+    "interviews": {
+      "theory": "# Platform interview\n\n**Question:** How do you design a safe deployment platform?\n**Answer:** Teams get paved roads with versioned templates, policy checks and observable defaults. Deployments use progressive delivery with automatic rollback based on service-level indicators. Platform APIs are products, so adoption and developer lead time are measured alongside uptime.\n\n**Question:** How do you manage infrastructure changes?\n**Answer:** Terraform plans are reviewed, environments are isolated, state is protected and modules are versioned. Emergency changes are reconciled back into code.",
+      "code": "",
+      "experience": "# Experience\n\nI built internal platforms for two SaaS companies. My current platform supports 45 services and 12 product teams. I introduced ephemeral preview environments and cut median setup time from three days to twenty minutes. I lead incident reviews and mentor platform engineers."
+    }
+  },
+  {
+    "id": "emiliano_ruiz",
+    "name": "Emiliano Ruiz",
+    "role": "AI Engineer",
+    "location": "Santiago, CL",
+    "experience": "2 años",
+    "stage": "Evaluación técnica",
+    "source": "Careers page",
+    "appliedAt": "2026-10-23",
+    "tags": ["Python", "LlamaIndex", "Azure"],
+    "interviews": {
+      "theory": "# AI interview\n\n**Question:** Explain chunking in RAG.\n**Answer:** Chunk size is a trade-off. Small chunks improve retrieval precision but may lose context; large chunks carry context but add noise and token cost. I test fixed, recursive and document-aware strategies against an evaluation set.\n\n**Question:** How do tools work in an agent?\n**Answer:** The model selects a declared function, the application validates arguments and executes it, then returns the result. Tools should have narrow permissions and clear error responses.",
+      "code": "# Challenge\n\nThe agent separates flight, hotel and activity tools and validates their outputs. Selection criteria are configurable. The implementation is concise and tested, though retries are unbounded and tool calls are sequential even when independent.",
+      "experience": "# Experience\n\nI built document assistants for legal and operations teams using Python, LlamaIndex and Azure AI Search. I implemented ingestion, metadata filters and feedback collection. One assistant reduced average search time from fifteen to four minutes. I have deployed services but still receive support for networking and security decisions."
+    }
+  },
+  {
+    "id": "agustina_paz",
+    "name": "Agustina Paz",
+    "role": "Product Engineer",
+    "location": "La Plata, AR",
+    "experience": "4 años",
+    "stage": "Nueva aplicación",
+    "source": "Referral",
+    "appliedAt": "2026-10-28",
+    "tags": ["TypeScript", "React", "Analytics"],
+    "interviews": {
+      "theory": "# Product engineering interview\n\n**Question:** How do you decide what to build?\n**Answer:** I start from the user problem and define a measurable behavior change. I prototype risky assumptions before committing to architecture. Technical quality includes accessibility, observability and the ability to change direction cheaply.\n\n**Question:** How do you run an experiment?\n**Answer:** I define the primary metric, guardrails and segment before launch. I avoid reading results early and document inconclusive outcomes.",
+      "code": "# Challenge\n\nThe React interface is polished, keyboard accessible and handles network failure. State is kept close to where it is used. The API layer has runtime validation and request cancellation. Tests focus on user behavior instead of implementation details.",
+      "experience": "# Experience\n\nI worked on activation and retention for a collaboration product. I partnered with design and data, shipped experiments and maintained the frontend platform. A guided setup flow increased week-one activation by 14%. I also simplified the event taxonomy and improved analytics reliability."
+    }
+  }
+]

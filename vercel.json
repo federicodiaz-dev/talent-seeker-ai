@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "web",
+  "functions": {
+    "api/*.js": {
+      "includeFiles": "input/**",
+      "maxDuration": 300
+    }
+  }
+}

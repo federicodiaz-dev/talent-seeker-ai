@@ -1,41 +1,65 @@
-# purmamarca-project-template
+# Talent Seeker
 
-Used for provisioning new projects for Purmamarca
+Una aplicación web local para revisar candidatos, leer sus entrevistas y ejecutar un
+workflow de análisis con Groq desde el navegador. No usa Azure Functions ni servicios
+de Microsoft.
 
-## How to use this repo
+## Ejecutar
 
-Create a new repository based on this template
+Necesitás [Node.js](https://nodejs.org/) 20 o superior. No hay dependencias para instalar.
 
-## 01. Setup Repository Variables
+En Windows, hacé doble clic en `start.bat`. También podés iniciarla desde una terminal:
 
-- Add "PROJECT_NAME" repository variable with your project name.
+```powershell
+npm.cmd start
+```
 
-## 02. Actions
+Después abrí [http://localhost:3000](http://localhost:3000).
 
-[01. Update Issue Template with Project Name](https://github.com/Craft-Labs/purmamarca-project-template/actions/workflows/update-project-name.yml)  
-Used to prepare the ISSUE_TEMPLATE/feature_request.md to include your [ProjectName] prefix.
+## Agregar candidatos
 
-[02. Create GitHub Issues from Parameter](https://github.com/Craft-Labs/purmamarca-project-template/actions/workflows/create-issues.yml)  
-Used to create GitHub Issues sent as a CSV string, for example: "First issue from input,Second issue from input"
-Output will be:
+Creá una carpeta dentro de `input/` usando el nombre del candidato:
 
-- [ProjectName] First issue from input
-- [ProjectName] Second issue from input
+```text
+input/
+  jane_doe/
+    theory_interview.md
+    challenge_interview.md
+    work_experience.md
+```
 
-[Build and Deploy Azure Function App (Python)](https://github.com/Craft-Labs/purmamarca-project-template/actions/workflows/python-function-build-deploy.yml)  
-Used when implementing the repo for a python function app. It covers building, linting, and deploying to Function App.
-Required variables to be configured:
+La aplicación detecta las carpetas automáticamente. Los tres archivos son opcionales;
+la UI muestra cuáles están disponibles y cuáles siguen pendientes. Podés copiar
+`input/_template_folder` como punto de partida.
 
-- FUNCTION_APP_WORKING_DIRECTORY. For example `functions_apps/linkedin-profile-processor`
-- FUNCTION_APP_NAME. Name of your Azure Resource. Used for deployment and storing artifacts. For example `fa-linkedin-searcher-dev`
+## Motor de análisis
 
-In VS Code Extensions
+1. Abrí `.env` y pegá tu key de Groq:
 
-- Azure Functions v1.17.1
-- Azurite V3
-- Python v2025.4.0
+   ```env
+   GROQ_API_KEY=gsk_...
+   GROQ_MODEL=openai/gpt-oss-120b
+   ```
 
-In Windows
+2. Reiniciá la aplicación.
 
-- Azure Functions Core Tools v4
-- Python v3.11.9 (pyenv recommended)
+La key se utiliza solamente en `server.js`: nunca se envía ni queda visible en el
+navegador. El modelo y el endpoint también se pueden cambiar en `.env`. El modo demo
+sigue disponible desde Configuración para probar la UI sin consumir créditos.
+
+Los resultados se guardan localmente en `output/<candidato>/analysis.json`. Cada resumen
+incluye obligatoriamente `decision` (`CONTINUE`, `REJECT` o `HUMAN_REVIEW`), un veredicto
+legible, riesgos y el siguiente paso recomendado.
+
+Los candidatos ficticios se definen en `input/sample-candidates.json` y sus entrevistas
+extendidas en `input/sample-interview-details.json`.
+
+## Verificación
+
+```powershell
+npm test
+node --check server.js
+```
+
+El backend usa únicamente módulos incluidos en Node.js. La interfaz está en `web/` y no
+necesita build.

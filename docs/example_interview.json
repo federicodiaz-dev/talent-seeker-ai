@@ -1,0 +1,1748 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('4b887bb2-b8b1-4708-955b-8f844e522102')/chats('19%3Ameeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4%40thread.v2')/messages",
+    "@odata.count": 20,
+    "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages?$skiptoken=U291cmNlPU1lc3NhZ2luZ0Zyb250RW5kIyNUeXBlPVN5bmNTdGF0ZSMjQ29udGludWF0aW9uVG9rZW49M2U0NTAwMDAwMDMxMzkzYTZkNjU2NTc0Njk2ZTY3NWY1YTU3NTk3NzVhNmQ1MjZkNGU0NDYzNzQ1OTdhNTU3OTVhNTMzMDMwNGQ0NDUxMzU0YzU0Njc3NzRmNDQ1MTc0NWE2YTQ2NmI0ZTMyNDUzNTRlNmE2ODY4NWE1NDYzMzQ0MDc0Njg3MjY1NjE2NDJlNzYzMjAxMWMxMTE0MTE5NjAxMDAwMDQzMjhhYzI1OTYwMTAwMDA%3d",
+    "value": [
+        {
+            "id": "1744388761667",
+            "replyToId": null,
+            "etag": "1744388761667",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-11T16:26:01.667Z",
+            "lastModifiedDateTime": "2025-04-11T16:26:01.667Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.membersAddedEventMessageDetail",
+                "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+                "members": [
+                    {
+                        "id": "9fb2208d-bd2c-42be-acc2-fc3c9ed7fe38",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                ],
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "152dbdb7-8b67-452b-914a-b04f2160e33e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744388749856",
+            "replyToId": null,
+            "etag": "1744388749856",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-11T16:25:49.856Z",
+            "lastModifiedDateTime": "2025-04-11T16:25:49.856Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.membersAddedEventMessageDetail",
+                "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+                "members": [
+                    {
+                        "id": "4b887bb2-b8b1-4708-955b-8f844e522102",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                ],
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "152dbdb7-8b67-452b-914a-b04f2160e33e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744053084455",
+            "replyToId": null,
+            "etag": "1744053084455",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T19:11:24.455Z",
+            "lastModifiedDateTime": "2025-04-07T19:11:24.455Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>Arpan Roy</p>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744053069096",
+            "replyToId": null,
+            "etag": "1744053069096",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-07T19:11:09.096Z",
+            "lastModifiedDateTime": "2025-04-07T19:11:09.096Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.membersAddedEventMessageDetail",
+                "visibleHistoryStartDateTime": "0001-01-01T00:00:00Z",
+                "members": [
+                    {
+                        "id": "32b2cf38-ceff-46e8-81b6-f6c9078f64df",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    },
+                    {
+                        "id": "46d0869b-b801-4c41-b76f-7f458daf3ef3",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    },
+                    {
+                        "id": "b98fe1e4-efa4-412b-b8cb-b9326934f490",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    },
+                    {
+                        "id": "152dbdb7-8b67-452b-914a-b04f2160e33e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                ],
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744045278506",
+            "replyToId": null,
+            "etag": "1744045278506",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-07T17:01:18.506Z",
+            "lastModifiedDateTime": "2025-04-07T17:01:18.506Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.membersLeftEventMessageDetail",
+                "members": [
+                    {
+                        "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                        "displayName": "Arpan Roy",
+                        "userIdentityType": "anonymousGuest"
+                    }
+                ],
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744045272960",
+            "replyToId": null,
+            "etag": "1744045272960",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-07T17:01:12.96Z",
+            "lastModifiedDateTime": "2025-04-07T17:01:12.96Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.callEndedEventMessageDetail",
+                "callId": "51bdc9d6-d0a3-4501-bae0-b7b96c89eee3",
+                "callDuration": "PT2H1M41S",
+                "callEventType": "meeting",
+                "callParticipants": [
+                    {
+                        "participant": {
+                            "application": null,
+                            "device": null,
+                            "user": {
+                                "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                                "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                                "displayName": "Rosario Blanc (CraftLabs)",
+                                "userIdentityType": "aadUser",
+                                "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                            }
+                        }
+                    },
+                    {
+                        "participant": {
+                            "application": null,
+                            "device": null,
+                            "user": {
+                                "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                                "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                                "displayName": "Arpan Roy",
+                                "userIdentityType": "anonymousGuest"
+                            }
+                        }
+                    }
+                ],
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744045073194",
+            "replyToId": null,
+            "etag": "1744045073194",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:57:53.194Z",
+            "lastModifiedDateTime": "2025-04-07T16:57:53.194Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<div>Cloud environment (i.e. Azure / AWS / GCP). <br /> Response: . <br /> What was your role: Gen AI Developer, Azure Data Engineer, AWS Integration Developer. <br /> What specific tasks did you perform: As a Gen AI Developer I have used Amazon Bedrock service to host and take large language model using APIs. Have used Azure AI studio, Data factory, Databricks also for Data Engineering operations. <br /> When was this / how long ago: Recently and still doing the same.</div>"
+            },
+            "attachments": [
+                {
+                    "id": "4a7168c246b749439345e95cd70ed0e2",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":5,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744045073194/hostedContents/aWQ9MC13dXMtZDEtOTUzODhlNWMzMDQ1NTNjNzg0ZDM4OWJhOGY0Njc2YmQsdHlwZT0wLHVybD0=/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "4a7168c246b749439345e95cd70ed0e2"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044852995",
+            "replyToId": null,
+            "etag": "1744044852995",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:54:12.995Z",
+            "lastModifiedDateTime": "2025-04-07T16:54:12.995Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Cloud environment&nbsp; (i.e. Azure / AWS / GCP).&nbsp;</span></p>\n<ol>\n<li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">Response: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What was your role: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What specific tasks did you perform: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">When was this / how long ago: .&nbsp;</span></li></ol>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044847377",
+            "replyToId": null,
+            "etag": "1744044847377",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:54:07.377Z",
+            "lastModifiedDateTime": "2025-04-07T16:54:07.377Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<div>DevOps Pipelines (i.e. Azure / GitLab / Github Actions / Jenkins / etc). <br />Response: . <br />What was your role: Worked as an Azure Data Engineer and Gen AI Developer. <br />What specific tasks did you perform: Have used Azure AI Studio during LLM fine tuning by custom dataset, Azure Data Factory during creating data pipeline, Azure VM to host posgresql on top of that.<br />Used github actions to manage the codebase to get a collabolative environment.<br /><br />When was this / how long ago: still doing from last 2 years</div>"
+            },
+            "attachments": [
+                {
+                    "id": "3dbaa6fef9c24ec19bff93e8991aab43",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":7,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744044847377/hostedContents/aWQ9MC13dXMtZDktY2ZiZjdkMjI2YzdlMzcyMzk0NDQ2ZmRmNTcxNzgzZDUsdHlwZT0wLHVybD0=/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "3dbaa6fef9c24ec19bff93e8991aab43"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044635522",
+            "replyToId": null,
+            "etag": "1744044635522",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:50:35.522Z",
+            "lastModifiedDateTime": "2025-04-07T16:50:35.522Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">DevOps Pipelines (i.e. Azure / GitLab / Github Actions / Jenkins / etc).&nbsp;</span></p>\n<ol>\n<li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">Response: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What was your role: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What specific tasks did you perform: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">When was this / how long ago: .&nbsp;</span></li></ol>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044622157",
+            "replyToId": null,
+            "etag": "1744044622157",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:50:22.157Z",
+            "lastModifiedDateTime": "2025-04-07T16:50:22.157Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<div>Spark and Big Data: <br />Response: . <br />What was your role: During working as a Data Engineer. <br />What specific tasks did you perform: <br />As a Data Engineer I have used pyspark and sperk sql along with Databricks to clean, preprocess the data. <br />When was this / how long ago:<br />Recently before 6 7 months</div>"
+            },
+            "attachments": [
+                {
+                    "id": "4ecc6a74a1524ea38a818fe6f869f30c",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":7,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744044622157/hostedContents/aWQ9MC13dXMtZDItZTQwNzZiNWM4NzBjYmVlOTlhZjk4MDZlM2FlNDc5ZTQsdHlwZT0wLHVybD0=/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "4ecc6a74a1524ea38a818fe6f869f30c"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044485220",
+            "replyToId": null,
+            "etag": "1744044485220",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:48:05.22Z",
+            "lastModifiedDateTime": "2025-04-07T16:48:05.22Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Spark and Big Data:&nbsp;</span></p>\n<ol>\n<li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">Response: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What was your role: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What specific tasks did you perform: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">When was this / how long ago: .&nbsp;</span></li></ol>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044475831",
+            "replyToId": null,
+            "etag": "1744044475831",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:47:55.831Z",
+            "lastModifiedDateTime": "2025-04-07T16:47:55.831Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>Frameworks such as Pandas, NumPy, Scikit-learn.<br />Response: .<br />What was your role:<br />During working as a Data Engineer and Data Scientist<br /><br />What specific tasks did you perform:<br />During Data Engineering to manipulate data, to clean, normalize and preprocess data I have used Pandas, Numpy. During<br />working with Machine Learning activities I have used Scikit learn.<br /><br />When was this / how long ago: Recently in the last 1.7 years</p>"
+            },
+            "attachments": [
+                {
+                    "id": "aad8bbbfaccf49ca8d7b37040d0cf895",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":9,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744044475831/hostedContents/aWQ9MC13dXMtZDEwLTNiM2RhZGYyNDljOGU1NjYxNTEwMjI2NGIwMDZjMGIyLHR5cGU9MCx1cmw9/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "aad8bbbfaccf49ca8d7b37040d0cf895"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044257526",
+            "replyToId": null,
+            "etag": "1744044257526",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:44:17.526Z",
+            "lastModifiedDateTime": "2025-04-07T16:44:17.526Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Frameworks such as Pandas, NumPy, Scikit-learn.&nbsp;</span></p>\n<ol>\n<li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">Response: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What was your role: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What specific tasks did you perform: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">When was this / how long ago: .&nbsp;</span></li></ol>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744044251561",
+            "replyToId": null,
+            "etag": "1744044251561",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:44:11.561Z",
+            "lastModifiedDateTime": "2025-04-07T16:44:11.561Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>A programming language (i.e. Python / .NET / Java / R / C++). Response: .<br />What was your role: .<br />What specific tasks did you perform: .<br />When was this / how long ago: .<br /><br />Programming Language: Python<br /><br />Role: Data Scientist (Generative AI Developer)<br />Specific tasks: During the 4 POCs I have used python to connect the LLM by langchain, Llamaindex, to manipulate data by<br />using pandas pyspark dataframe. to train, fine tune, test and deploy model, to do prompt engineering.<br />This was from last 1.7 years and still I am working on this.</p>"
+            },
+            "attachments": [
+                {
+                    "id": "92e5fdd8357845f594fa0d14e6f4f552",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":10,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744044251561/hostedContents/aWQ9MC13dXMtZDctZWI4YzRiMTNkNWE0MzM0NDkwYTk4M2YzOTBjNDA0YTksdHlwZT0wLHVybD0=/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "92e5fdd8357845f594fa0d14e6f4f552"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744043840573",
+            "replyToId": null,
+            "etag": "1744043840573",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:37:20.573Z",
+            "lastModifiedDateTime": "2025-04-07T16:37:20.573Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"color:#1E53A3; font-size:x-large\">Work experience questions&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<table itemprop=\"copy-paste-table\">\n<tbody>\n<tr>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Work experience questions&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">5 questions&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">20-30 minutes&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\">&nbsp;</p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Thinking of hands-on technical tasks and your last 3 years at work, describe (in writing) and with as much details as possible what was your most impressive/complex/challenging achievement related to or using…&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\"><i>(<strong><u>note</u></strong>: if nothing was done related to a topic within that time span, also include things done further back, before 3 years ago. Also, if nothing was done with the technologies or skills mentioned here, do mention any other comparable technologies or skills and provide the details for those - keep in mind, though, that the ones listed here are the ones we're mostly interested in)</i>&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<ol>\n<li><span style=\"font-size:inherit\">A programming language (i.e. Python / .NET / Java / R / C++). Response: .&nbsp;</span>\n<ol>\n<li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What was your role: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">What specific tasks did you perform: .&nbsp;</span></li><li style=\"margin-bottom:0px; margin-top:0px\"><span style=\"font-size:inherit\">When was this / how long ago: .&nbsp;</span></li></ol>\n</li></ol>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744043830776",
+            "replyToId": null,
+            "etag": "1744043830776",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:37:10.776Z",
+            "lastModifiedDateTime": "2025-04-07T16:37:10.776Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>What are the main challenges of deploying a machine learning model to production, and how would you address them?<br /><br />1. Data Drift and Concept Drift<br />2. Model Versioning and Management<br />3. Infrastructure and Scalability<br />4. Monitoring and Observability<br />5. Security and Compliance<br /><br />Solutions:<br />1. Implement data monitoring tools, set up drift alerts based on embedding distance<br /><br />2. Use tools like MLFlow to track model versions, to store data, metrics<br /><br />3. Use FastAPI, Flask for model serving<br /><br />4. Use tools to track input output, latency, errors</p>"
+            },
+            "attachments": [
+                {
+                    "id": "61f0f4d8aec64c6dbc38efb53a5c5f27",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":16,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744043830776/hostedContents/aWQ9MC13dXMtZDEyLTFlYmVmM2E1NDg5ZWFlNzkwYTRjZTI4OGRkY2RjMDgxLHR5cGU9MCx1cmw9/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "61f0f4d8aec64c6dbc38efb53a5c5f27"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744043461363",
+            "replyToId": null,
+            "etag": "1744043461363",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:31:01.363Z",
+            "lastModifiedDateTime": "2025-04-07T16:31:01.363Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p><span style=\"font-size:inherit\">What are the main challenges of deploying a machine learning model to production, and how would you address them?&nbsp;</span></p>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744043455919",
+            "replyToId": null,
+            "etag": "1744043455919",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:30:55.919Z",
+            "lastModifiedDateTime": "2025-04-07T16:30:55.919Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>Which are AI Agent group chats? Which types of speaker selection do you know?</p><p>It refers to a setup where multiple ai agents communicate and collaborate, usually to solve a complex problem by sharing ideas, tasks, expertise like a team of specialists.</p><p>The speaker selection will be based on the goal.</p>"
+            },
+            "attachments": [
+                {
+                    "id": "81c6b54bea9442d29227d0f48e9e8f5c",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":5,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744043455919/hostedContents/aWQ9MC13dXMtZDEwLTY1OTQxMWUzZWZhNWY4MmY0OTRhNzY2NWFkYTkyYjU3LHR5cGU9MCx1cmw9/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "81c6b54bea9442d29227d0f48e9e8f5c"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744043249948",
+            "replyToId": null,
+            "etag": "1744043249948",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:27:29.948Z",
+            "lastModifiedDateTime": "2025-04-07T16:27:29.948Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p><span style=\"font-size:inherit\">Which are AI Agent group chats? Which types of speaker selection do you know?&nbsp;</span></p>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+    
+        {
+            "id": "1744043237960",
+            "replyToId": null,
+            "etag": "1744043237960",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:27:17.96Z",
+            "lastModifiedDateTime": "2025-04-07T16:27:17.96Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>Which is the purpose of AI agent tools?<br />1. Extend the AI Agents functionality<br />2. Enable grounded outputs (like RAG agent)<br />3. Allow modular design<br />4. Seperate skills from logic</p>"
+            },
+            "attachments": [
+                {
+                    "id": "46207a5ec8da434b83a857e479d5b7a5",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":7,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744043237960/hostedContents/aWQ9MC13dXMtZDEwLTgyNTAzOGY5ZWFlNDAzYmNiOGI1M2E5YzU1MTg3ZTcxLHR5cGU9MCx1cmw9/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "46207a5ec8da434b83a857e479d5b7a5"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744043095263",
+            "replyToId": null,
+            "etag": "1744043095263",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:24:55.263Z",
+            "lastModifiedDateTime": "2025-04-07T16:24:55.263Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p><span style=\"font-size:inherit\">Which is the purpose of AI agent tools?&nbsp;</span></p>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744043089592",
+            "replyToId": null,
+            "etag": "1744043089592",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:24:49.592Z",
+            "lastModifiedDateTime": "2025-04-07T16:24:49.592Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>Which is the difference between Zero-shot, Few-shot and CoT prompting?</p><p>Zero-shot Prompting:<br />You ask the model without any examples. Used when work is simple or model has seen similar instructions in training</p><p>Few-shot Prompting:<br />You provide the model with a few examples(usually 1-5) to guide its behavior. Used when task is complex or domain-specific.</p><p>Chain of Thought Prompting:<br />You ask the model to explain its reasoning step by step before giving the final answer.</p>"
+            },
+            "attachments": [
+                {
+                    "id": "2ce8c9f99aa44793bea8ac2a5cf77907",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":10,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744043089592/hostedContents/aWQ9MC13dXMtZDUtMzNlN2RjNGJmYTg2ZDNiYWNjYjRkZGVjODY4NjMwZDgsdHlwZT0wLHVybD0=/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "2ce8c9f99aa44793bea8ac2a5cf77907"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042782896",
+            "replyToId": null,
+            "etag": "1744042782896",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:19:42.896Z",
+            "lastModifiedDateTime": "2025-04-07T16:19:42.896Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p><span style=\"font-size:inherit\">Which is the difference between Zero-shot, Few-shot and CoT prompting?&nbsp;</span></p>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042771999",
+            "replyToId": null,
+            "etag": "1744042771999",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:19:31.999Z",
+            "lastModifiedDateTime": "2025-04-07T16:19:31.999Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>What is a vector DB? Could you please mention one you are familiar with? A vector database is a type of database optimized to store, index and search high dimensional vectors which represent things like text, image, audio in a format machines understand.<br />&nbsp;It does: 1. Storing embeddings 2. Fast similarity search semantically 3. Helping in RAG</p>"
+            },
+            "attachments": [
+                {
+                    "id": "6f06a340444d4c179fa1c3a48da568dc",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":9,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744042771999/hostedContents/aWQ9MC13dXMtZDEtOTQ3NzE0NmI4MDI4MjQxZTIzMDg2MjNjOWE4MmFmNmMsdHlwZT0wLHVybD0=/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "6f06a340444d4c179fa1c3a48da568dc"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042543335",
+            "replyToId": null,
+            "etag": "1744042543335",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:15:43.335Z",
+            "lastModifiedDateTime": "2025-04-07T16:15:43.335Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p><span style=\"font-size:inherit\">What is a vector DB? Could you please mention one you are familiar with?&nbsp;</span></p>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042528919",
+            "replyToId": null,
+            "etag": "1744042528919",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:15:28.919Z",
+            "lastModifiedDateTime": "2025-04-07T16:15:28.919Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>What is RAG (Retrieval-Augmented Generation)?</p><p>It's an AI architecture that combines:</p><p>1. Retrieval: Fetching relevant data/chunks from external sources like a vector database, docs, search engine</p><p>2. Generation: Using a language model like GPT 4 or Claude to generate answers based on the retrieved context</p>"
+            },
+            "attachments": [
+                {
+                    "id": "84dee8ac6f2f4aa998f2f7b269cbacf6",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Text\",\"lines\":7,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744042528919/hostedContents/aWQ9MC13dXMtZDExLTdlOTJmNzQzNmZmMTBkYTk2YTg0YmM1YTljZjBjZTlmLHR5cGU9MCx1cmw9/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "84dee8ac6f2f4aa998f2f7b269cbacf6"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042300723",
+            "replyToId": null,
+            "etag": "1744042309371",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:11:40.723Z",
+            "lastModifiedDateTime": "2025-04-07T16:11:49.371Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": "2025-04-07T16:11:49.371Z",
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": ""
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042294546",
+            "replyToId": null,
+            "etag": "1744042294546",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:11:34.546Z",
+            "lastModifiedDateTime": "2025-04-07T16:11:34.546Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>&nbsp;</p>\n<p itemtype=\"http://schema.skype.com/CodeBlockEditor\" id=\"x_codeBlockEditor-6523b467-cab1-4e3e-afca-20de2eeb1667\">\n&nbsp;</p>\n<pre class=\"language-plaintext\" itemid=\"codeBlockEditor-6523b467-cab1-4e3e-afca-20de2eeb1667\"><code></code></pre>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042030424",
+            "replyToId": null,
+            "etag": "1744042030424",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:07:10.424Z",
+            "lastModifiedDateTime": "2025-04-07T16:07:10.424Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"color:#1E53A3; font-size:x-large\">Theory&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<table itemprop=\"copy-paste-table\">\n<tbody>\n<tr>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Theory&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">6 questions&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">20 minutes&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<ol>\n<li><span style=\"font-size:inherit\">What is RAG (Retrieval-Augmented Generation)?&nbsp;</span></li></ol>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744042021887",
+            "replyToId": null,
+            "etag": "1744042021887",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T16:07:01.887Z",
+            "lastModifiedDateTime": "2025-04-07T16:07:01.887Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>'''<br />Create an agent that allows a user to plan their vacation. <br />The agent should receive a destination and return information about flights, hotels, and activities. <br />Use separate tools for each query (these can be real APIs or simulated tools). <br />The agent should be able to make decisions, such as selecting the best option based on a criterion (e.g., lowest price). <br />'''<br /><br /><br />from crewai import CrewBase, Agent, Task, Tool<br />import random<br /><br />def flight_tool(destination):<br />&nbsp; retirn [<br />&nbsp;&nbsp;&nbsp; {'airline': 'AirX', 'price': random.randint(90, 555)},<br />&nbsp;&nbsp;&nbsp; {'airline': 'Flyhigh', 'price': random.randint(80, 550)}<br />&nbsp; ]<br />def hotel_tool(destination):<br />&nbsp; return [<br />&nbsp;&nbsp;&nbsp; {'name':'Bliss', 'price': random.randint(100, 300)}<br />&nbsp; ]<br />def flight_tool(destination):<br />&nbsp;&nbsp;&nbsp; return [<br />&nbsp;&nbsp;&nbsp; {'activity': 'City Walk', 'price': random.randint(40, 600)}<br />&nbsp; ]<br /><br /><br />def best_flight_task(inputs):<br />&nbsp; destination = inputs['destination']<br />&nbsp; options = flight_tool(destination)<br />&nbsp; return select_lowest(options)<br /><br />def best_hotel_task(inputs):<br />&nbsp;&nbsp;&nbsp; destination = inputs['destination']<br />&nbsp; options = hotel_tool(destination)<br />&nbsp; return select_lowest(options)<br /><br />def best_activity_task(inputs):<br />&nbsp;&nbsp;&nbsp; destination = inputs['destination']<br />&nbsp; options = activity_tool(destination)<br />&nbsp; return select_lowest(options)<br /><br />flight_agent = Agent(<br />&nbsp;&nbsp;&nbsp; role = 'Flight Agent',<br />&nbsp; goal = 'Find the cheapest flight',<br />&nbsp; backstory = 'Knows all flight deals',<br />)<br /><br />hotel_agent = Agent(<br />&nbsp; role = 'Hotel Finder',<br />&nbsp; goal = 'Find the affordable hotel',<br />&nbsp; backstory = 'Knows best hotel deals',<br />)<br /><br />activity_agent = Agent(<br />&nbsp;&nbsp;&nbsp; role = 'Activity Selector',<br />&nbsp; goal = 'Find the best fun and cheapest activity',<br />&nbsp; backstory = 'Knows all activities',<br />)<br />&nbsp;<br />&nbsp; <br />fight_task = Task(<br />&nbsp; description = 'Get best flight deals',<br />&nbsp; agent = flight_agent,<br />&nbsp; func = best_flight_task,<br />)<br /><br />hotel_task = Task(<br />&nbsp; description = 'Get best and affordable hotels',<br />&nbsp; agent = hotel_agent,<br />&nbsp; func = best_hotel_task,<br />)<br /><br />activity_task = Task(<br />&nbsp; description = 'Get best and fun activity',<br />&nbsp; agent = activity_agent,<br />&nbsp; func = best_activity_task,<br />)<br /><br />crew = Crew(<br />&nbsp;&nbsp;&nbsp; agents= [flight_agent, hotel_agent, activity_agent],<br />&nbsp;&nbsp;&nbsp; tasks= [flight_task, hotel_task, activity_task],<br />)<br /><br />if __name__ == 'main':<br />&nbsp; <br />&nbsp; destination = 'United States'<br />&nbsp; result = crew.run(inputs = {'destination': destination})<br />&nbsp; print(f\"Best travel plan for {destination}: \n\", result)</p>"
+            },
+            "attachments": [
+                {
+                    "id": "5c50399699fc46da8febef419ac7e2c7",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Python\",\"lines\":88,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744042021887/hostedContents/aWQ9MC13dXMtZDItM2E2Y2U0M2NjMTdjYmE2NzdiZTlmZDFmNzVlMWQzZDgsdHlwZT0wLHVybD0=/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "5c50399699fc46da8febef419ac7e2c7"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744039641148",
+            "replyToId": null,
+            "etag": "1744039698376",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T15:27:21.148Z",
+            "lastModifiedDateTime": "2025-04-07T15:28:18.376Z",
+            "lastEditedDateTime": "2025-04-07T15:28:18.376Z",
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-left:0\"><span style=\"font-size:inherit\">Create an agent that allows a user to plan their vacation.&nbsp;</span></p>\n<ul>\n<li><span style=\"font-size:inherit\">The agent should receive a destination and return information about flights, hotels, and activities.&nbsp;</span></li><li><span style=\"font-size:inherit\">Use separate tools for each query (these can be real APIs or simulated tools).&nbsp;</span></li><li><span style=\"font-size:inherit\">The agent should be able to make decisions, such as selecting the best option based on a criterion (e.g., lowest price).&nbsp;</span></li></ul>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744039626892",
+            "replyToId": null,
+            "etag": "1744039626892",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T15:27:06.892Z",
+            "lastModifiedDateTime": "2025-04-07T15:27:06.892Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                    "displayName": "Arpan Roy",
+                    "userIdentityType": "anonymousGuest"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p>'''<br />Using Python write code samples for the following: <br />Note: these exercises won't focus on exact syntax or using existing framework APIs with their exact class or identifier names, if there's minor errors in that sense like typos or similar that won't be bad for score. <br />Read all records from a Users CSV file into a DF. Table fields are Id, FirstName, LastName and BirthDate. Group users by the year of their birth date and display in console year and # of users. <br />'''</p><p><br />import pandas as pd</p><p>df = pd.read_csv(csv_path)</p><p>df['BirthDate'] = pd.to_datetime(df['BirthDate'])<br />df['BirthYear'] = df['BirthDate'].dt.year</p><p>grouped = df.groupby('BirthYear')['Id'].count().reset_index('User Count')</p><p>for _, row in grouped.iterrows():<br /> print(f\"Year: {row['BirthYear']}, Number of Users: {row['User Count']})</p>"
+            },
+            "attachments": [
+                {
+                    "id": "473228017211402fbac6bf3b1cc46f09",
+                    "contentType": "application/vnd.microsoft.card.codesnippet",
+                    "contentUrl": null,
+                    "content": "{\"name\":\"\",\"language\":\"Python\",\"lines\":18,\"wrap\":true,\"codeSnippetUrl\":\"https://graph.microsoft.com/v1.0/chats/19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2/messages/1744039626892/hostedContents/aWQ9MC13dXMtZDEyLTJmNWVkNDMzYjdiMDQyNzIwYThkYWRmMjY2YjI0ZjQ1LHR5cGU9MCx1cmw9/$value\"}",
+                    "name": null,
+                    "thumbnailUrl": null,
+                    "teamsAppId": "473228017211402fbac6bf3b1cc46f09"
+                }
+            ],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744038850886",
+            "replyToId": null,
+            "etag": "1744038850886",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T15:14:10.886Z",
+            "lastModifiedDateTime": "2025-04-07T15:14:10.886Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"color:#1E53A3; font-size:x-large\">Programming Exercises&nbsp;&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<table itemprop=\"copy-paste-table\">\n<tbody>\n<tr>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Programming Exercises&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">2 questions&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">20-25 minutes&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\"><strong>Using Python write code samples for the following:</strong>&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\"><i>Note: these exercises won't focus on exact syntax or using existing framework APIs with their exact class or identifier names, if there's minor errors in that sense like typos or similar that won't be bad for score.</i>&nbsp;</span></p>\n<ol>\n<li><span style=\"font-size:inherit\">Read all records from a Users CSV file into a DF. Table fields are Id, FirstName, LastName and BirthDate. Group users by the year of their birth date and display in console year and # of users.&nbsp;</span></li></ol>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744038736489",
+            "replyToId": null,
+            "etag": "1744038736489",
+            "messageType": "message",
+            "createdDateTime": "2025-04-07T15:12:16.489Z",
+            "lastModifiedDateTime": "2025-04-07T15:12:16.489Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "eventDetail": null,
+            "from": {
+                "application": null,
+                "device": null,
+                "user": {
+                    "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                    "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                    "displayName": "Rosario Blanc (CraftLabs)",
+                    "userIdentityType": "aadUser",
+                    "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                }
+            },
+            "body": {
+                "contentType": "html",
+                "content": "<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"color:#1E53A3; font-size:x-large\">Topics&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<table itemprop=\"copy-paste-table\">\n<tbody>\n<tr>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Programming Exercises&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">2 questions&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">20-25 minutes&nbsp;</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">Theory&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">6 questions&nbsp;</span></p>\n</td>\n<td>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">20 minutes&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\">&nbsp;</span></p>\n<p style=\"margin-bottom:0px; margin-left:0; margin-top:0px\"><span style=\"font-size:inherit\"><i><u>Note</u>: responses to the questions presented next must be provided in written form and in English</i>.&nbsp;</span></p>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": []
+        },
+        {
+            "id": "1744038061217",
+            "replyToId": null,
+            "etag": "1744038061217",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-07T15:01:01.217Z",
+            "lastModifiedDateTime": "2025-04-07T15:01:01.217Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.membersJoinedEventMessageDetail",
+                "members": [
+                    {
+                        "id": "4e1f266c90ba4b7a9996d46c62e18446",
+                        "displayName": "Arpan Roy",
+                        "userIdentityType": "anonymousGuest"
+                    }
+                ],
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744037977289",
+            "replyToId": null,
+            "etag": "1744037979301",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-07T14:59:37.289Z",
+            "lastModifiedDateTime": "2025-04-07T14:59:39.301Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.callStartedEventMessageDetail",
+                "callId": "51bdc9d6-d0a3-4501-bae0-b7b96c89eee3",
+                "callEventType": "meeting",
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744035747495",
+            "replyToId": null,
+            "etag": "1744035747495",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-07T14:22:27.495Z",
+            "lastModifiedDateTime": "2025-04-07T14:22:27.495Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.callEndedEventMessageDetail",
+                "callId": "91efd222-d1bc-4f6a-b897-da9173013e63",
+                "callDuration": "PT5M40S",
+                "callEventType": "meeting",
+                "callParticipants": [
+                    {
+                        "participant": {
+                            "application": null,
+                            "device": null,
+                            "user": {
+                                "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                                "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                                "displayName": "Rosario Blanc (CraftLabs)",
+                                "userIdentityType": "aadUser",
+                                "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                            }
+                        }
+                    }
+                ],
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1744035441413",
+            "replyToId": null,
+            "etag": "1744035451351",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-07T14:17:21.413Z",
+            "lastModifiedDateTime": "2025-04-07T14:17:31.351Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.callStartedEventMessageDetail",
+                "callId": "91efd222-d1bc-4f6a-b897-da9173013e63",
+                "callEventType": "meeting",
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1743541245488",
+            "replyToId": null,
+            "etag": "1743541245488",
+            "messageType": "unknownFutureValue",
+            "createdDateTime": "2025-04-01T21:00:45.488Z",
+            "lastModifiedDateTime": "2025-04-01T21:00:45.488Z",
+            "lastEditedDateTime": null,
+            "deletedDateTime": null,
+            "subject": null,
+            "summary": null,
+            "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+            "importance": "normal",
+            "locale": "en-us",
+            "webUrl": null,
+            "from": null,
+            "channelIdentity": null,
+            "policyViolation": null,
+            "body": {
+                "contentType": "html",
+                "content": "<systemEventMessage/>"
+            },
+            "attachments": [],
+            "mentions": [],
+            "reactions": [],
+            "eventDetail": {
+                "@odata.type": "#microsoft.graph.chatRenamedEventMessageDetail",
+                "chatId": "19:meeting_ZWYwZmRmNDctYzUyZS00MDQ5LTgwODQtZjFkN2E5NjhhZTc4@thread.v2",
+                "chatDisplayName": "Craftlabs Interview (1h30m) - Arpan Roy",
+                "initiator": {
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "@odata.type": "#microsoft.graph.teamworkUserIdentity",
+                        "id": "63354851-c155-4d81-9cc7-647c23b13a8e",
+                        "displayName": null,
+                        "userIdentityType": "aadUser",
+                        "tenantId": "a1dd2fc9-baa2-4940-913a-554b9aff40ef"
+                    }
+                }
+            }
+        }
+    
+    ]
+}

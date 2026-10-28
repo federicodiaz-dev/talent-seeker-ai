@@ -1,0 +1,118 @@
+[
+  {
+    "from":   "Interviewer",
+    "message":   "Topics \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Exercises \n\n2 questions \n\n20-25 minutes \n\nTheory \n\n6 questions \n\n20 minutes \n\n \nNote:   responses to the questions presented next must be provided in written form and in English. "
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Programming Exercises  \n \n\n\n\n\n\n\n\n\n\nProgramming Exercises \n\n2 questions \n\n20-25 minutes \n\n \nUsing Python write code samples for the following:   \nNote:   these exercises won't focus on exact syntax or using existing framework APIs with their exact class or identifier names, if there's minor errors in that sense like typos or similar that won't be bad for score. \n\n • Read all records from a Users CSV file into a DF. Table fields are Id, FirstName, LastName and BirthDate. Group users by the year of their birth date and display in console year and # of users. "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "'''\nUsing Python write code samples for the following:   \nNote:   these exercises won't focus on exact syntax or using existing framework APIs with their exact class or identifier names, if there's minor errors in that sense like typos or similar that won't be bad for score. \nRead all records from a Users CSV file into a DF. Table fields are Id, FirstName, LastName and BirthDate. Group users by the year of their birth date and display in console year and # of users. \n'''\n\n\nimport pandas as pd\n\ndf = pd.read_csv(csv_path)\n\ndf['BirthDate'] = pd.to_datetime(df['BirthDate'])\ndf['BirthYear'] = df['BirthDate'].dt.year\n\ngrouped = df.groupby('BirthYear')['Id'].count().reset_index('User Count')\n\nfor _, row in grouped.iterrows():  \n  print(f\"Year:   {row['BirthYear']}, Number of Users:   {row['User Count']})"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Create an agent that allows a user to plan their vacation. \n\n • The agent should receive a destination and return information about flights, hotels, and activities.  • Use separate tools for each query (these can be real APIs or simulated tools).  • The agent should be able to make decisions, such as selecting the best option based on a criterion (e.g., lowest price). "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "'''\nCreate an agent that allows a user to plan their vacation. \nThe agent should receive a destination and return information about flights, hotels, and activities. \nUse separate tools for each query (these can be real APIs or simulated tools). \nThe agent should be able to make decisions, such as selecting the best option based on a criterion (e.g., lowest price). \n'''\n\n\nfrom crewai import CrewBase, Agent, Task, Tool\nimport random\n\ndef flight_tool(destination):  \n  retirn [\n    {'airline':   'AirX', 'price':   random.randint(90, 555)},\n    {'airline':   'Flyhigh', 'price':   random.randint(80, 550)}\n  ]\ndef hotel_tool(destination):  \n  return [\n    {'name':  'Bliss', 'price':   random.randint(100, 300)}\n  ]\ndef flight_tool(destination):  \n\treturn [\n    {'activity':   'City Walk', 'price':   random.randint(40, 600)}\n  ]\n\n\ndef best_flight_task(inputs):  \n  destination = inputs['destination']\n  options = flight_tool(destination)\n  return select_lowest(options)\n\ndef best_hotel_task(inputs):  \n\tdestination = inputs['destination']\n  options = hotel_tool(destination)\n  return select_lowest(options)\n\ndef best_activity_task(inputs):  \n\tdestination = inputs['destination']\n  options = activity_tool(destination)\n  return select_lowest(options)\n\nflight_agent = Agent(\n\trole = 'Flight Agent',\n  goal = 'Find the cheapest flight',\n  backstory = 'Knows all flight deals',\n)\n\nhotel_agent = Agent(\n  role = 'Hotel Finder',\n  goal = 'Find the affordable hotel',\n  backstory = 'Knows best hotel deals',\n)\n\nactivity_agent = Agent(\n\trole = 'Activity Selector',\n  goal = 'Find the best fun and cheapest activity',\n  backstory = 'Knows all activities',\n)\n \n  \nfight_task = Task(\n  description = 'Get best flight deals',\n  agent = flight_agent,\n  func = best_flight_task,\n)\n\nhotel_task = Task(\n  description = 'Get best and affordable hotels',\n  agent = hotel_agent,\n  func = best_hotel_task,\n)\n\nactivity_task = Task(\n  description = 'Get best and fun activity',\n  agent = activity_agent,\n  func = best_activity_task,\n)\n\ncrew = Crew(\n\tagents= [flight_agent, hotel_agent, activity_agent],\n\ttasks= [flight_task, hotel_task, activity_task],\n)\n\nif __name__ == 'main':  \n  \n  destination = 'United States'\n  result = crew.run(inputs = {'destination':   destination})\n  print(f\"Best travel plan for {destination}:   \\n\", result)"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Theory \n \n\n\n\n\n\n\n\n\n\nTheory \n\n6 questions \n\n20 minutes \n\n \n\n • What is RAG (Retrieval-Augmented Generation)? "
+  },
+  {
+    "from":   "Candidate",
+    "message":   " \n\n \n"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   ""
+  },
+  {
+    "from":   "Candidate",
+    "message":   "What is RAG (Retrieval-Augmented Generation)?It's an AI architecture that combines:  1. Retrieval:   Fetching relevant data/chunks from external sources like a vector database, docs, search engine2. Generation:   Using a language model like GPT 4 or Claude to generate answers based on the retrieved context"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "What is a vector DB? Could you please mention one you are familiar with? "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "What is a vector DB? Could you please mention one you are familiar with? A vector database is a type of database optimized to store, index and search high dimensional vectors which represent things like text, image, audio in a format machines understand. It does:   1. Storing embeddings 2. Fast similarity search semantically 3. Helping in RAG"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Which is the difference between Zero-shot, Few-shot and CoT prompting? "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "Which is the difference between Zero-shot, Few-shot and CoT prompting?Zero-shot Prompting:  You ask the model without any examples. Used when work is simple or model has seen similar instructions in trainingFew-shot Prompting:  You provide the model with a few examples(usually 1-5) to guide its behavior. Used when task is complex or domain-specific.Chain of Thought Prompting:  You ask the model to explain its reasoning step by step before giving the final answer."
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Which is the purpose of AI agent tools? "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "Which is the purpose of AI agent tools?1. Extend the AI Agents functionality2. Enable grounded outputs (like RAG agent)3. Allow modular design4. Seperate skills from logic"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Which are AI Agent group chats? Which types of speaker selection do you know? "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "Which are AI Agent group chats? Which types of speaker selection do you know?It refers to a setup where multiple ai agents communicate and collaborate, usually to solve a complex problem by sharing ideas, tasks, expertise like a team of specialists.The speaker selection will be based on the goal."
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "What are the main challenges of deploying a machine learning model to production, and how would you address them? "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "What are the main challenges of deploying a machine learning model to production, and how would you address them?1. Data Drift and Concept Drift2. Model Versioning and Management3. Infrastructure and Scalability4. Monitoring and Observability5. Security and ComplianceSolutions:  1. Implement data monitoring tools, set up drift alerts based on embedding distance2. Use tools like MLFlow to track model versions, to store data, metrics3. Use FastAPI, Flask for model serving4. Use tools to track input output, latency, errors"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Work experience questions \n \n\n\n\n\n\n\n\n\n\nWork experience questions \n\n5 questions \n\n20-30 minutes \n\n \nThinking of hands-on technical tasks and your last 3 years at work, describe (in writing) and with as much details as possible what was your most impressive/complex/challenging achievement related to or using… \n \n(note:   if nothing was done related to a topic within that time span, also include things done further back, before 3 years ago. Also, if nothing was done with the technologies or skills mentioned here, do mention any other comparable technologies or skills and provide the details for those - keep in mind, though, that the ones listed here are the ones we're mostly interested in) \n \n\n • A programming language (i.e. Python / .NET / Java / R / C++). Response:   . \n\n • What was your role:   . • What specific tasks did you perform:   . • When was this / how long ago:   . \n"
+  },
+  {
+    "from":   "Candidate",
+    "message":   "A programming language (i.e. Python / .NET / Java / R / C++). Response:   .What was your role:   .What specific tasks did you perform:   .When was this / how long ago:   .Programming Language:   PythonRole:   Data Scientist (Generative AI Developer)Specific tasks:   During the 4 POCs I have used python to connect the LLM by langchain, Llamaindex, to manipulate data byusing pandas pyspark dataframe. to train, fine tune, test and deploy model, to do prompt engineering.This was from last 1.7 years and still I am working on this."
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Frameworks such as Pandas, NumPy, Scikit-learn. \n\n • Response:   . • What was your role:   . • What specific tasks did you perform:   . • When was this / how long ago:   . "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "Frameworks such as Pandas, NumPy, Scikit-learn.Response:   .What was your role:  During working as a Data Engineer and Data ScientistWhat specific tasks did you perform:  During Data Engineering to manipulate data, to clean, normalize and preprocess data I have used Pandas, Numpy. Duringworking with Machine Learning activities I have used Scikit learn.When was this / how long ago:   Recently in the last 1.7 years"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Spark and Big Data:   \n\n • Response:   . • What was your role:   . • What specific tasks did you perform:   . • When was this / how long ago:   . "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "Spark and Big Data:   Response:   . What was your role:   During working as a Data Engineer. What specific tasks did you perform:   As a Data Engineer I have used pyspark and sperk sql along with Databricks to clean, preprocess the data. When was this / how long ago:  Recently before 6 7 months"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "DevOps Pipelines (i.e. Azure / GitLab / Github Actions / Jenkins / etc). \n\n • Response:   . • What was your role:   . • What specific tasks did you perform:   . • When was this / how long ago:   . "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "DevOps Pipelines (i.e. Azure / GitLab / Github Actions / Jenkins / etc). Response:   . What was your role:   Worked as an Azure Data Engineer and Gen AI Developer. What specific tasks did you perform:   Have used Azure AI Studio during LLM fine tuning by custom dataset, Azure Data Factory during creating data pipeline, Azure VM to host posgresql on top of that.Used github actions to manage the codebase to get a collabolative environment.When was this / how long ago:   still doing from last 2 years"
+  },
+  {
+    "from":   "Interviewer",
+    "message":   "Cloud environment  (i.e. Azure / AWS / GCP). \n\n • Response:   . • What was your role:   . • What specific tasks did you perform:   . • When was this / how long ago:   . "
+  },
+  {
+    "from":   "Candidate",
+    "message":   "Cloud environment (i.e. Azure / AWS / GCP).  Response:   .  What was your role:   Gen AI Developer, Azure Data Engineer, AWS Integration Developer.  What specific tasks did you perform:   As a Gen AI Developer I have used Amazon Bedrock service to host and take large language model using APIs. Have used Azure AI studio, Data factory, Databricks also for Data Engineering operations.  When was this / how long ago:   Recently and still doing the same."
+  }
+]
